@@ -3,15 +3,11 @@ import math
 import matplotlib.pyplot as plt
 
 # Precyzja Pythona dla liczba zmiennoprzecinkowych typu float to 53 bit
-# (czyli 16 cyfr), w naszym przypadku niedokładności z tym związane są
+# w naszym przypadku niedokładności z tym związane są
 # pomijalne. Nawet dla większych spadków i większych rozpiętości otrzymane
 # wartości byłyby akceptowalne. Otrzymanie dokładniejszych wyników
 # wiązałoby się z dużym nakładem pracy w odpowiednią implementację
-# co z punktu widzenia konsturkcji budowlanych nie miałoby usprawiedliwienia
-# ekonomicznego. Do szerszych rozważań nad problematyką reprezentacji liczb
-# zmiennoprzcinkowych przez komupter odsyłam do pracy np. Davida Goldberga
-# pod tytułem "What every computer scientist should know about floating-point
-# arithmetic" - dostępnej publicznie np. www.validlab.com/goldberg/paper.pdf
+# co z punktu widzenia konsturkcji budowlanych nie miałoby sensu.
 
 # Dane projekotwe:
 # spad SPAD_B [m]
