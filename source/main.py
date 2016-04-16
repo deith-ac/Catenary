@@ -37,7 +37,6 @@ T_1 = -5
 # Różnica temperatur:
 T_d = T_1 - T_0
 
-# Does it even work? Apparently so!
 
 # Charakterystyka pręta ALF-8 525mm^2 (520-AL1/67-ST1A)
 # Pole przewodu [m^2]
